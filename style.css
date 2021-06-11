@@ -1,0 +1,98 @@
+body {
+	height: 90vh;		
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	background:	black;	
+	font-family:Andale Mono, monospace;
+}
+h1{
+	color: green;
+	font-size: 60px;
+	text-shadow:-2px 2px 0px #22d616,
+				-4px 4px 0px #59ef4f,
+				-6px 6px 0px #a3fd9d;
+}
+.res, p {	
+	color: green;	
+	font-size: 30px;
+	text-shadow:-1px 1px 0px #22d616;				
+}
+.bigsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.field {
+	width: 306px;
+	height: 306px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0;
+	background: black;
+	outline: 1px solid green;
+}
+.squares{
+	border: 1px solid green;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;	
+	font-size: 40px;
+	color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.imgN1 {
+	background-image: url(img/Neo.jpg);
+	background-size: cover;	
+	width: 200px;
+	height: 200px;
+	margin: 0 90px 0 30px;
+	border-width: 0; /* НЕ РАБОТАЕТ */
+
+}
+
+.imgN2 {
+	background-image: url(img/Neo1.gif);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 0 90px 0 30px;
+	background-position: center;
+}
+
+.imgS1 {
+	background-image: url(img/Smith.jpg);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 0 30px 0 90px;
+
+}
+
+.imgS2 {
+	background-image: url(img/Smith.gif);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 0 30px 0 90px;
+
+}
+
+button {
+	background: #22d616;
+	color: white;
+	cursor: pointer;
+}
+
+.active {
+	text-shadow:-2px 2px 0px #22d616,
+				-4px 4px 0px #59ef4f,
+				-6px 6px 0px #a3fd9d;
+	
+}
+
